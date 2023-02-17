@@ -17,7 +17,6 @@ int main(void)
 		}
 		else
 		{
-			a++;
 			break;
 		}
 		putchar(32);
