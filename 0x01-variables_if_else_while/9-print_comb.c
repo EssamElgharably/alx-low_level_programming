@@ -14,13 +14,13 @@ int main(void)
 			putchar(a);
 			a++;
 			putchar(44);
-			putchar(32);
 		}
 		else
 		{
 			putchar(a);
 			a++;
 		}
+		putchar(32);
 	}
 	return (0);
 }
