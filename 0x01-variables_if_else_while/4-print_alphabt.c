@@ -11,6 +11,7 @@ int main(void)
 	{
 		if (a == 101 || a == 113)
 		{
+			a++;
 			continue;
 		}
 		else
