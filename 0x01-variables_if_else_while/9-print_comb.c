@@ -9,16 +9,11 @@ int main(void)
 
 	while (a <= '9')
 	{
+		putchar(a);
+		a++;
 		if (a != '9')
 		{
-			putchar(a);
-			a++;
-			putchar(44);
-		}
-		else
-		{
-			putchar(a);
-			a++;
+		putchar(44);
 		}
 		putchar(32);
 	}
