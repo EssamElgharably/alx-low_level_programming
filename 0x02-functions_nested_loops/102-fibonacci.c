@@ -5,7 +5,9 @@
 */
 int main(void)
 {
-	int fib1 = 0, fib2 = 1, sum = 0, counter;
+	long fib1 = 0, fib2 = 1;
+	
+	int sum = 0, counter;
 
 	for (counter = 0; counter < 50; counter++)
 	{
@@ -14,7 +16,10 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 		if (counter != 49)
+		{
 			putchar(',');
+			puthcar(' ');
+		}
 		else
 			putchar('\n');
 	}
