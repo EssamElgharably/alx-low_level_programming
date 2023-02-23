@@ -5,9 +5,9 @@
 */
 int main(void)
 {
-	unsigned long fib1 = 0, fib2 = 1;
+	long fib1 = 0, fib2 = 1, sum;
 
-	int sum = 0, counter;
+	int counter;
 
 	for (counter = 0; counter < 50; counter++)
 	{
