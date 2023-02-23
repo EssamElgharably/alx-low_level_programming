@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-	long fib1 = 0, fib2 = 1;
-	
+	unsigned long fib1 = 0, fib2 = 1;
+
 	int sum = 0, counter;
 
 	for (counter = 0; counter < 50; counter++)
