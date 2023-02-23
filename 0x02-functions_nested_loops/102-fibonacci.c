@@ -18,7 +18,7 @@ int main(void)
 		if (counter != 49)
 		{
 			putchar(',');
-			puthcar(' ');
+			putchar(' ');
 		}
 		else
 			putchar('\n');
